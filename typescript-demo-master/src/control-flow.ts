@@ -1,5 +1,3 @@
-import "./scss/styles.scss";
-
 /**
  * If/else
  */
@@ -44,6 +42,7 @@ for (const item of keys) {
 }
 
 console.log("for-in loop");
+// @ts-ignore
 const user = {
   name: 'Bob',
   age: 55

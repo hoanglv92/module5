@@ -49,7 +49,6 @@ Expect: lỗi xảy ra (TS2451: Cannot redeclare block-scoped variable 'y'.)
 })();
 
 Expect: lỗi xảy ra (TS2448: Block-scoped variable 'y' used before its declaration.)
-
  */
 
 /**
@@ -105,7 +104,6 @@ enum Direction {
 Expect: lỗi xảy ra
 TS2322: Type '{}' is not assignable to type 'IPost'. Property 'id' is missing in type '{}'.
     TS2322: Type '50' is not assignable to type 'string'.
-
  */
 
 function main() {}

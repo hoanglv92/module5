@@ -6,7 +6,7 @@ interface IRepos {
   items: Array<ISingleRepo>;
 }
 async function fetchRepo(): Promise<Array<ISingleRepo>> {
-  let res: Response | IRepos = await fetch('https://api.github.com/search/repositories?q=angular');
+  let res: Response | IRepos = await fetch('https://api.github.com/search/repositories?q=nodejs');
   res = await res.json() as IRepos;
   return res.items;
 }
