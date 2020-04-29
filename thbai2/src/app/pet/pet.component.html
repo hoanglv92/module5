@@ -1,0 +1,13 @@
+<p>pet profile!</p>
+<label>
+  petName:
+  <input type="text" [(ngModel)]="petName" (change)="updateName($event.target.value)">
+</label>
+<br>
+<label>
+  PetImage:
+  <input type="text" [(ngModel)]="petImage" (change)="updateImage($event.target.value)">
+</label>
+<br>
+<h3>{{petName}}</h3>
+<img [src]="petImage" style="max-width: 100%">
