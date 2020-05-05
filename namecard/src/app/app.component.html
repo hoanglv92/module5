@@ -1,6 +1,12 @@
+
+<app-countdown-timer seconds="10" (timerEnd) = "endCountdown()">
+</app-countdown-timer>
+<p>{{ countdownAliasMsg }}</p>
+<app-rating-bar [max]="10" (rateChange)="onRateChange($event)"></app-rating-bar>
+<hr>
 <div>
 <app-name-card cardName="hoang.le" email="hoangle@xyz" phone="098888888"></app-name-card>
 </div>
 <hr>
-<app-progressbar [width]="run"></app-progressbar>
+<app-progressbar [width]="46"></app-progressbar>
 
