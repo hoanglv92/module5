@@ -1,5 +1,9 @@
-<div>
-<textarea cols="70" id="article-title" [(ngModel)]="newTitle" ></textarea>
-<textarea  cols="70" id="article-url" [(ngModel)]="newUrl"></textarea>
+<div class="container">
+  <div class="alert alert-primary">
+    <p>Title:</p>
+    <textarea class="table-danger" cols="70" id="article-title" [(ngModel)]="newTitle" ></textarea>
+    <p>Url:</p>
+    <textarea class="table-danger" cols="70" id="article-url" [(ngModel)]="newUrl"></textarea>
+  </div>
 <button (click)="addArticle()">Add</button>
 </div>

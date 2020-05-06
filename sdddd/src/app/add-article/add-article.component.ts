@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {AppComponent} from "../app.component";
 
 @Component({
@@ -15,22 +15,20 @@ export class AddArticleComponent  implements OnInit {
   ngOnInit(): void {
   }
 
-  newTitle='';
-  newUrl='';
+  @Output() addNew = new EventEmitter();
+  newTitle = '';
+  newUrl = '';
+
 
   addArticle() {
-    title:this.newTitle;
-    url:this.newUrl;
+   // @ts-ignore
+    let newAR:Article={
+     title: this.newTitle,
+     url: this.newUrl
+   }
+    this.addNew.emit(newAR);
+    this.newTitle='';
+    this.newUrl='';
+    alert('success')
   }
-  articles=[
-    {
-      title:'The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await',
-      url: 'https://medium.freecodecamp.org/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40'
-    }
-    ,
-    {
-      title:'The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await',
-      url: 'https://medium.freecodecamp.org/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40'
-    }
-  ]
 }
