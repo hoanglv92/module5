@@ -3,26 +3,36 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {FormsModule} from "@angular/forms";
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { AddArticleComponent } from './add-article/add-article.component';
-import { ViewArticleComponent } from './view-article/view-article.component';
-import {HttpClientModule} from "@angular/common/http";
+import { TimelinesComponent } from './timelines/timelines.component';
+import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
+import {RouterModule, Routes} from "@angular/router";
 
+const routes: Routes=[
+  {
+    path: '',
+    loadChildren:()=>import('./guest/guest.module').then(module=>module.GuestModule)
+  },
+  {
+    path: 'admin',
+    loadChildren: () =>import('./admin/admin.module').then(module =>module.AdminModule)
+  }
+]
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    AddArticleComponent,
-    ViewArticleComponent
+    TimelinesComponent,
+    YoutubePlaylistComponent,
+    YoutubePlayerComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        FormsModule,
-      HttpClientModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
+  ],
   providers: [],
+  exports: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

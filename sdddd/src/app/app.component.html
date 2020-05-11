@@ -1,32 +1,13 @@
-<app-nav-bar (isShowAdd)="displayViewAdd($event)"></app-nav-bar>
-<div class="container-fluid" *ngIf="iShowFrom">
-  <app-add-article (addNew)="addArticle($event)"></app-add-article>
-</div>
-<div class="container-fluid" *ngIf="isShowView">
-<app-view-article [url]="urlNew" [title]="titleNew"></app-view-article>
-</div>
-<div class="container" *ngIf="isShowListArticle">
-<h2>Today's article</h2>
-<hr>
-<div >
-  <table class="table table-active">
-  <tr >
-    <th>Artichtle</th>
-    <th>View</th>
-    <th>Delete</th>
-  </tr>
-    <tr *ngFor="let art of Articles">
-      <td>
-        <a href="{{art.url}}" target="_blank">{{art.title}}</a>
-      </td>
-      <td>
-        <button class="btn-danger" (click)="showArticle(art.id,art.title,art.url)">View</button>
-      </td>
-      <td>
-        <button class="btn-danger" (click)="deleteArticle(art.id)">Delete</button>
-      </td>
-    </tr>
-  </table>
-</div>
-</div>
 
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<nav>
+  <a routerLink="timelines" class="link"> Ứng dụng tính thời gian </a>
+</nav>
+<router-outlet></router-outlet>
+
+<nav>
+  <a routerLink="youtube" class="link">Youtube</a>
+</nav>
+<router-outlet></router-outlet>
