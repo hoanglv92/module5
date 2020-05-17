@@ -1,0 +1,8 @@
+<p>{{ myArticle.title }}
+  <button (click)="showContent()">Show Url</button>
+  <button (click)="goToLink()">Go To Link</button>
+</p>
+
+<div *ngIf="isShow">
+  {{ myArticle.url }}
+</div>

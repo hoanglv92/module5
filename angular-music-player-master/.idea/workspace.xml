@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d806d70-86c4-475e-a387-820e15e93d5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WFBD_Http-Client-HackerNews-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/book.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/book.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/list-book/list-book.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/list-book/list-book.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/list-book/list-book.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/app/list-book/list-book.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../books/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoapi/src/app/admin/admin.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoapi/src/app/article.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoapi/src/app/article.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoapi/src/app/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoapi/src/app/guest/guest.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/amplify.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/ngsw-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/screenshots/album.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/screenshots/browse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/album-preview/album-preview.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/album-preview/album-preview.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/album-preview/album-preview.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/album/album.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/album/album.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/album/album.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/artist-preview/artist-preview.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/artist-preview/artist-preview.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/artist-preview/artist-preview.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/artist/artist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/artist/artist.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/artist/artist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/browse/browse.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/browse/browse.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/browse/browse.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/dialog/album-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/dialog/album-dialog.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/dialog/album-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/for-you/for-you.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/for-you/for-you.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/for-you/for-you.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-albums/library-albums.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-albums/library-albums.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-albums/library-albums.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-artists/library-artists.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-artists/library-artists.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-artists/library-artists.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-songs/library-songs.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-songs/library-songs.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/library/library-songs/library-songs.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/playlist-preview/playlist-preview.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/playlist-preview/playlist-preview.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/playlist-preview/playlist-preview.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/playlist/playlist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/playlist/playlist.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/playlist/playlist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/queue/queue.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/queue/queue.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/queue/queue.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/recently-added/recently-added.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/recently-added/recently-added.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/recently-added/recently-added.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/search/search.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/search/search.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/search/search.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/settings/settings.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/settings/settings.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/settings/settings.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/sidebar/sidebar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/snack-bar/copy-snack-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/snack-bar/queue-snack-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/snack-bar/snack-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/snack-bar/snack-bar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/song/song.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/song/song.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/song/song.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/track-controls/track-controls.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/track-controls/track-controls.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/components/track-controls/track-controls.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/directives/lazy-load.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/models/album-model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/models/artwork.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/models/play-params.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/models/song-model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/pipes/format-artwork-url.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/pipes/format-milliseconds-to-text.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/pipes/format-milliseconds.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/pipes/format-seconds.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/services/api.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/services/musicKit.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/app/services/player.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/default.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/mstile-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/mstile-310x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/mstile-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/mstile-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/open-graph-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/assets/icons/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-web-player-master/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../articlebt.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lear-angular" beforeDir="false" afterPath="$PROJECT_DIR$/../lear-angular" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../login/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../login/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../login/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validatefromsignin/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../validatefromsignin/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validatefromsignin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../validatefromsignin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validatefromsignin/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../validatefromsignin/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validatefromsignin/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../validatefromsignin/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validatefromsignin/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../validatefromsignin/src/app/app.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1c1YmWLchzgQPTl5Eqxeg20xUL1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../music-web-player-master" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Angular Application">
+    <configuration name="Tests (itunes)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/src/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (itunes-e2e)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d806d70-86c4-475e-a387-820e15e93d5b" name="Default Changelist" comment="" />
+      <created>1589697725797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589697725797</updated>
+      <workItem from="1589697727245" duration="723000" />
+      <workItem from="1589698519433" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="154" width="426" height="495" key="FileChooserDialogImpl" timestamp="1589698640706">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="498" y="154" width="426" height="495" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1589698640706" />
+    <state width="1274" height="413" key="GridCell.Tab.0.bottom" timestamp="1589698450624">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1274" height="413" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1589698450624" />
+    <state width="1274" height="413" key="GridCell.Tab.0.center" timestamp="1589698450623">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1274" height="413" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1589698450623" />
+    <state width="1274" height="413" key="GridCell.Tab.0.left" timestamp="1589698450623">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1274" height="413" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1589698450623" />
+    <state width="1274" height="413" key="GridCell.Tab.0.right" timestamp="1589698450624">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1274" height="413" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1589698450624" />
+  </component>
+</project>

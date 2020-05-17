@@ -1,0 +1,38 @@
+
+<div *ngIf="isShowList" class="container">
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  Danh Sách Các Cuốn Sách.
+</div>
+<div>
+<h3>
+  Có <span>{{amount}}</span> cuốn sách.
+</h3>
+</div>
+<div>
+<button class="btn btn-success" data-toggle="dropdown"  type="button">Thêm Sách Mới</button>
+  <app-addbook (addbook)="addBook($event)"></app-addbook>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Tên Sách</th>
+    <th scope="col">Tác Giả</th>
+    <th scope="col">Thao Tác</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let b of books; index as i">
+    <th scope="row">{{i + 1}}</th>
+    <td><a >{{b.title}}</a></td>
+    <td>{{b.author}}</td>
+    <td>
+      <button class="btn btn-danger" data-toggle="dropdown">Sửa</button>
+      <app-from-edit [bookedit]="b" (saveAr)="save($event)"></app-from-edit>
+      <span> or </span>
+      <button class="btn btn-danger" (click)="removeBook(b)">Xóa</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+</div>

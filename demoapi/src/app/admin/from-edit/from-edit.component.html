@@ -1,0 +1,14 @@
+<div class="dropdown-menu">
+  <form class="px-4 py-3" [formGroup]="editFrom" (ngSubmit)="save()">
+    <div class="form-group">
+      <label for="exampleDropdownFormEmail1">Title</label>
+      <input name="id" formControlName="id" type="hidden" [value]="arEdit.id">
+      <input formControlName="title" style="width: 480px" type="text" class="form-control" id="exampleDropdownFormEmail1" [value]="arEdit.title">
+    </div>
+    <div class="form-group">
+      <label for="exampleDropdownFormPassword1">Url</label>
+      <input formControlName="url" style="width: 480px" type="text" class="form-control" id="exampleDropdownFormPassword1" [value]="arEdit.url" >
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>

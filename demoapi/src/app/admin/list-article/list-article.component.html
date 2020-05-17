@@ -1,0 +1,28 @@
+<h2>Today's article</h2>
+<hr>
+<div >
+  <table class="table table-active">
+    <tr >
+      <th>Artichtle</th>
+      <th>View</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+    <tr *ngFor="let art of articles" [class.selected]="art === viewArticle">
+      <td>
+        <a href="{{art.url}}" target="_blank">{{art.title}}</a>
+      </td>
+      <td>
+        <button class="btn-danger" data-toggle="dropdown" (click)="showArticle(art)" >View</button>
+        <app-view-article [article]="viewArticle"></app-view-article>
+      </td>
+      <td class="btn-group">
+        <button class="btn-danger" data-toggle="dropdown" >Edit</button>
+        <app-from-edit [arEdit]="art" [class.selected]="art === arEdit"  (saveAr)="reloadList($event)" ></app-from-edit>
+      </td>
+      <td>
+        <button class="btn-danger" [class.selected]="art.id === idAr" (click)="deleteArticle(art.id)">Delete</button>
+      </td>
+    </tr>
+  </table>
+</div>

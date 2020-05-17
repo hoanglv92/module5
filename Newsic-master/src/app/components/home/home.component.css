@@ -1,0 +1,389 @@
+.artistSongButton {
+  background-color: #7871f0;
+}
+.bigJumbo {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.btnContainer {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.clearAll {
+  width: 100%;
+}
+.clearAllContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.deleteImage {
+  position: absolute;
+}
+.emptyImage {
+  margin-top: 5%;
+}
+.entityCard {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.entityContainer {
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.entityNameContainer {
+  text-align: center;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  background-color: #2a2a2a;
+}
+.genreButton {
+  background-color: #413d80;
+}
+.genreWell {
+  margin-left: auto;
+  margin-right: auto;
+}
+.maxWell,
+.instructionWell,
+.emptyWell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.emptyWell {
+  flex-direction: column;
+}
+.lightPurple {
+  color: #bdb8f2;
+}
+.jumbotron {
+  text-align: center;
+}
+.mixContainer {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.panelImage {
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.siteName {
+  font-size: 1em;
+}
+.welcomeWell {
+  text-align: center;
+  background-color: #2a2a2a;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 419px) {
+  .addBtnText {
+    font-size: 1em;
+  }
+  .btnContainer {
+    margin-bottom: 2%;
+    width: 90%;
+  }
+  .clearAllContainer {
+    width: 60%;
+    margin-top: 5%;
+  }
+  .desc {
+    font-size: 1.2em;
+  }
+  .emptyImage {
+    width: 50%;
+  }
+  .emptyWell {
+    margin-top: 7.5%;
+  }
+  .entityCard {
+    width: 140px;
+    height: 250px;
+  }
+  .entityNameContainer {
+    width: 125px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .entityNameContainer > h4 {
+    font-size: 1em;
+  }
+  .genreBtns {
+    margin-top: 5%;
+  }
+  .genreWell {
+    width: 90%;
+  }
+  .generateButton {
+    margin-top: 3%;
+    margin-bottom: 7.5%;
+  }
+  .genreWell {
+    margin-top: 7.5%;
+  }
+  .instructionWell {
+    margin-top: -5%;
+  }
+  .maxWell > h6,
+  .instructionWell > h6 {
+    font-size: 1em;
+  }
+  .mobileWell {
+    margin-top: 5%;
+  }
+  .mobileWell > p {
+    font-size: 0.8em;
+  }
+  .panelGenreImage,
+  .panelImage,
+  .deleteImage {
+    width: 75px;
+    height: 75px;
+  }
+  .panelImage,
+  .panelGenreImage {
+    margin-bottom: 7.5%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 420px) and (max-width: 960px) {
+  .addBtnText {
+    font-size: 1.2em;
+  }
+  .btnContainer {
+    margin-top: 3%;
+    width: 80%;
+    height: 60px;
+  }
+  .clearAllContainer {
+    width: 45%;
+    margin-top: 5%;
+  }
+  .desc {
+    font-size: 1.4em;
+  }
+  .emptyImage {
+    width: 50%;
+  }
+  .emptyWell {
+    margin-top: 5%;
+    font-size: 1.1em;
+  }
+  .entityCard {
+    margin-top: -5%;
+    width: 175px;
+    height: 313px;
+  }
+  .entityNameContainer {
+    width: 150px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .entityNameContainer > h4 {
+    font-size: 1.2em;
+  }
+  .genreBtns {
+    margin-top: 5%;
+  }
+  .generateButton {
+    margin-bottom: 7.5%;
+  }
+  .genreWell {
+    margin-top: 5%;
+    width: 75%;
+  }
+  .instructionWell {
+    margin-top: 5%;
+  }
+  .maxWell > h6,
+  .instructionWell > h6 {
+    font-size: 1.2em;
+  }
+  .mobileOnly {
+    display: none;
+  }
+  .panelGenreImage,
+  .panelImage,
+  .deleteImage {
+    width: 90px;
+    height: 90px;
+  }
+  .panelImage,
+  .panelGenreImage {
+    margin-bottom: 7.5%;
+  }
+  .siteName {
+    font-size: 1.5em;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .btnContainer {
+    margin-top: 5%;
+    width: 70%;
+    height: 90px;
+  }
+  .clearAllContainer {
+    width: 30%;
+    margin-top: 5%;
+  }
+  .desc {
+    font-size: 1.6em;
+  }
+  .emptyImage {
+    width: 40%;
+  }
+  .emptyWell {
+    margin-top: 5%;
+  }
+  .emptyWell > h6 {
+    font-size: 1.2em;
+  }
+  .entityCard {
+    margin-top: -2.5%;
+    width: 230px;
+    height: 400px;
+  }
+  .entityNameContainer {
+    width: 200px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .entityNameContainer > h4 {
+    font-size: 1.3em;
+  }
+  .instructionWell {
+    margin-top: 3%;
+  }
+  .genreBtns {
+    margin-top: 5%;
+  }
+  .generateButton {
+    margin-bottom: 7.5%;
+  }
+  .genreWell {
+    margin-top: 5%;
+    width: 75%;
+  }
+  .maxWell > h6,
+  .instructionWell > h6 {
+    font-size: 1.6em;
+  }
+  .mobileOnly {
+    display: none;
+  }
+  .moveDown {
+    margin-top: 3%;
+  }
+  .panelGenreImage,
+  .panelImage,
+  .deleteImage {
+    width: 125px;
+    height: 125px;
+  }
+  .panelImage,
+  .panelGenreImage {
+    margin-bottom: 7.5%;
+  }
+  .siteName {
+    font-size: 1.7em;
+  }
+}
+
+/* CSS for album flipping animation, inspired by https://codepen.io/montillon/pen/xExpPB */
+.flip-container {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.flip-container:hover .back {
+  transform: rotateY(0deg);
+}
+.flip-container:hover .front {
+  transform: rotateY(180deg);
+}
+.flip-container,
+.front,
+.back {
+  margin-left: auto;
+  margin-right: auto;
+}
+.flipper {
+  transform-style: preserve-3d;
+}
+.front,
+.back {
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.back {
+  transform: rotateY(-180deg);
+  line-height: 1.4em;
+  position: relative;
+}
+.back::before {
+  content: "";
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.vertical.flip-container {
+  position: relative;
+}
+.vertical .back {
+  transform: rotateX(180deg);
+}
+.vertical.flip-container:hover .back {
+  transform: rotateX(0deg);
+}
+.vertical.flip-container:hover .front {
+  transform: rotateX(180deg);
+}
+/* CSS for zooming on Hover, inspired by https://codepen.io/wifeo/pen/qzwkb*/
+.zoomOnHover {
+  display: inline-block;
+  border: 0;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.zoomOnHover:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}

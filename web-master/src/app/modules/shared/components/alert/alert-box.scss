@@ -1,0 +1,51 @@
+@import 'variables';
+
+:host {
+  .alert {
+    display: flex;
+    padding: 0;
+    position: relative;
+    background: $primay-gradient;
+    box-shadow: $primary-boxshadow;
+    border-radius: 4px !important;
+    color: white;
+
+    .icon {
+      width: 30px;
+      background: $primay-gradient;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon {
+      padding: 20px 40px;
+      i {
+        color: white;
+      }
+    }
+
+    .message {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      color: $aux-brand-primary;
+
+      h3 {
+        flex-grow: 1;
+        margin: 0 0 5px 0;
+      }
+
+      .closer {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+      }
+    }
+  }
+}

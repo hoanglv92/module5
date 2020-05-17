@@ -1,0 +1,19 @@
+
+<div class="dropdown-menu">
+  <form class="px-4 py-3" [formGroup]="editFrom" (ngSubmit)="save()">
+    <div class="form-group">
+      <label for="exampleDropdownFormEmail1">Name</label>
+      <input name="id" formControlName="id" type="hidden" [value]="bookedit.id">
+      <input formControlName="title" style="width: 480px" type="text" class="form-control" id="exampleDropdownFormEmail1" [value]="bookedit.title">
+    </div>
+    <div class="form-group">
+      <label for="exampleDropdownFormPassword1">Tac gia</label>
+      <input formControlName="author" style="width: 480px" type="text" class="form-control" id="exampleDropdownFormPassword1" [value]="bookedit.author" >
+    </div>
+    <div class="form-group">
+      <label for="exampleDropdownFormPassword3">Tac gia</label>
+      <input formControlName="description" style="width: 480px" type="text" class="form-control" id="exampleDropdownFormPassword3" [value]="bookedit.author" >
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>

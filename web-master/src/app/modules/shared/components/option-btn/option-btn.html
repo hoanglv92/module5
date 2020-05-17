@@ -1,0 +1,8 @@
+<div class="option-btn clickable"
+     [class.isActive]="isActive"
+     (click)="execute()">
+  <span *ngIf="icon" class="icon">
+    <i [class]="icon"></i>
+  </span>
+  <span class="text">{{title}}</span>
+</div>

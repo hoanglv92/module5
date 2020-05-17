@@ -1,0 +1,17 @@
+<h3 style="color: blue" *ngIf="isLoading">{{ loadingMessage }}</h3>
+<h3 style="color: red" *ngIf="message">{{ message }}</h3>
+
+<div class="form-group">
+  <label for="searchKeyword">Keyword</label>
+  <input type="text" name="searchKeyword" class="form-control" id="searchKeyword" aria-describedby="emailHelp"
+         (input)="searchNewsByTitle()"
+         [(ngModel)]="keyword"
+  >
+</div>
+
+<app-article *ngFor="let item of articles"
+           [article]="item"
+           (onClickShowButton)="showArticleContent($event)"
+>
+
+</app-article>

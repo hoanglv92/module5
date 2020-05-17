@@ -1,0 +1,598 @@
+.addBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background-color: #009871;
+}
+#albumContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.albumCover,
+.playlistCover {
+  margin-top: 2%;
+  width: 50%;
+  object-fit: cover;
+}
+.albumCover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+.albumCoverInTrackBlock {
+  margin-top: auto;
+  margin-bottom: auto;
+  object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+.albumHeadingContainer {
+  text-align: center;
+  overflow-wrap: break-word;
+  background-color: #2a2a2a;
+  padding: 2.5% 5% 2.5% 5%;
+  width: 100%;
+}
+.albumName {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.alreadyAdded {
+  background-color: #014a39;
+}
+.artistName {
+  color: #decbf2;
+  margin-top: -0.5%;
+}
+.audioFeatureContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.audioFeatureCircle {
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.circle0 {
+  border: 0.1em solid #663399;
+}
+.circle1 {
+  border: 0.1em solid #007bff;
+}
+.circle2 {
+  border: 0.1em solid #e74c3c;
+}
+.circle3 {
+  border: 0.1em solid #f39c12;
+}
+.circle4 {
+  border: 0.1em solid #28a745;
+}
+.circle5 {
+  border: 0.1em solid #17a2b8;
+}
+.copyrightContainer {
+  margin-left: 2%;
+  width: 100%;
+  height: 33px;
+}
+.defaultPopularityColour {
+  border: 0.1em solid #009871;
+}
+.fullMix {
+  background-color: #3e4f4b;
+}
+.infoBlock {
+  display: flex;
+  flex-direction: row;
+}
+.infoTextColLeft {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 32%;
+}
+.infoTextColRight {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 27%;
+  float: right;
+}
+.infoTextLabel {
+  white-space: nowrap;
+  color: #d2fdcd;
+  margin-top: 0;
+}
+.infoTextValue {
+  margin-left: 2%;
+  margin-top: 0%;
+}
+.infoTextRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  justify-content: flex-start;
+}
+.labelWrapper {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+.labelHeading {
+  float: left;
+}
+.labelImage {
+  position: relative;
+  margin-left: 2%;
+  float: right;
+}
+.featureHeading {
+  margin-left: auto;
+  margin-right: auto;
+}
+.popularity {
+  margin-left: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+.popularityLabel {
+  position: absolute;
+  top: 0.6em;
+  right: 0.4em;
+  bottom: 0.4em;
+  left: 0.4em;
+  display: block;
+  background: none;
+  border-radius: 50%;
+  font-size: 0.25em;
+  line-height: 2.6em;
+  text-align: center;
+  cursor: default;
+  z-index: 2;
+}
+.popularityText {
+  color: #f3e8ff;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+table tr {
+  border-bottom: 1px solid;
+  border-bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+table td span {
+  background: #eee;
+  color: black;
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+}
+table td {
+  border: 1px solid;
+  margin: 0 -1px -1px 0;
+  padding: 2.5% 5% 2.5% 5%;
+  position: relative;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td > h3,
+h4,
+h5 {
+  vertical-align: middle;
+}
+#artistCell {
+  width: 50%;
+}
+#copyrightCell {
+  width: 45%;
+}
+#numOfTracksCell {
+  width: 25%;
+}
+#labelCell,
+#copyrightCell {
+  overflow-wrap: anywhere;
+}
+table thead {
+  left: -9999px;
+  position: absolute;
+  visibility: hidden;
+}
+.tableWrapper {
+  width: 150%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.trackBlock {
+  display: flex;
+  flex-direction: row;
+}
+#trackContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.trackDuration {
+  margin-top: -0.2%;
+}
+.trackInfoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.trackInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.trackInfoWrapper > h2 {
+  margin-top: 0;
+  color: #9ae6d2;
+}
+/* CSS for the donut status bar of an album's popularity.
+Inspired from peavy's work @ https://codepen.io/peavy/pen/NzYVjw */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.donut-size {
+  display: inline-block;
+}
+.pie-wrapper {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  margin: 0px auto;
+}
+.pie {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+}
+.half-circle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  clip: rect(0em, 0.5em, 1em, 0em);
+}
+.viewArtistBtn {
+  background-color: #8368a1;
+}
+.right-side {
+  transform: rotate(0deg);
+}
+.smaller {
+  padding-bottom: 20px;
+  font-size: 0.45em;
+  vertical-align: super;
+}
+.shadow {
+  width: 100%;
+  height: 100%;
+  border: 0.1em solid;
+  border-radius: 50%;
+}
+/* CSS for the track accordion.
+Inspired from @ https://codepen.io/abergin/pen/ihlDf*/
+.transition,
+#accordionExpansion,
+ul li i:before,
+ul li i:after {
+  transition: all 0.25s ease-in-out;
+}
+.flipIn,
+#trackName,
+ul li {
+  animation: flipdown 0.5s ease both;
+}
+.no-select {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 18px;
+  border-top: 1px solid #dce7eb;
+}
+ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+ul li:last-of-type {
+  padding-bottom: 0;
+}
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 2%;
+}
+ul li i:before,
+ul li i:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 9px;
+}
+ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ul li input[type="checkbox"] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 55%;
+  z-index: 1;
+  opacity: 0;
+}
+ul li input[type="checkbox"]:checked ~ #accordionExpansion {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+  transition: all 0.1s ease-in-out;
+}
+ul li input[type="checkbox"]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul li input[type="checkbox"]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
+}
+/* Mobile Styles */
+@media only screen and (max-width: 549px) {
+  .addBtn {
+    height: 45px;
+  }
+  .addBtn > h4 {
+    font-size: 0.6em;
+  }
+  .albumCoverInTrackBlock {
+    width: 75px;
+    height: 75px;
+  }
+  .albumHeadingContainer > h1 {
+    font-size: 30px;
+  }
+  .donut-size {
+    font-size: 3em;
+  }
+  .featureHeading {
+    font-size: 0.55em;
+  }
+  .labelHeading {
+    font-size: 1.5em;
+  }
+  .labelImage {
+    width: 30px;
+    height: 30px;
+  }
+  table td span {
+    font-size: 0.3em;
+    padding: 2px;
+  }
+  td > h3 {
+    font-size: 0.8em;
+  }
+  td > h4 {
+    font-size: 0.7em;
+  }
+  td > h5 {
+    font-size: 0.6em;
+  }
+  .tableWrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .trackInfoContainer {
+    margin-left: 5%;
+  }
+  .trackInfoWrapper {
+    height: 75px;
+  }
+  .trackInfoWrapper > h2 {
+    font-size: 1em;
+  }
+  .trackInfoWrapper > h3 {
+    font-size: 0.75em;
+  }
+  .popularity {
+    display: none;
+  }
+  #viewArtist {
+    font-size: 1em;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 550px) and (max-width: 974px) {
+  .addBtn {
+    height: 60px;
+  }
+  .addBtn > h4 {
+    font-size: 1em;
+  }
+  .albumCoverInTrackBlock {
+    width: 100px;
+    height: 100px;
+  }
+  .albumHeadingContainer > h1 {
+    font-size: 50px;
+  }
+  .donut-size {
+    font-size: 4em;
+  }
+  .featureHeading {
+    font-size: 0.8em;
+  }
+  .labelHeading {
+    font-size: 2em;
+  }
+  .labelImage {
+    width: 40px;
+    height: 40px;
+  }
+  table td span {
+    font-size: 0.5em;
+    padding: 2px;
+  }
+  td > h3 {
+    font-size: 1em;
+  }
+  td > h4 {
+    font-size: 0.9em;
+  }
+  td > h5 {
+    font-size: 0.8em;
+  }
+  .trackInfoContainer {
+    margin-left: 3%;
+  }
+  .trackInfoWrapper {
+    height: 100px;
+  }
+  .trackInfoWrapper > h2 {
+    font-size: 1.5em;
+  }
+  .trackInfoWrapper > h3 {
+    font-size: 1em;
+  }
+  #viewArtist {
+    font-size: 1.5em;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 975px) {
+  .addBtn {
+    height: 80px;
+  }
+  .addBtn > h4 {
+    font-size: 2em;
+  }
+  .albumCoverInTrackBlock {
+    width: 200px;
+    height: 200px;
+  }
+  .albumHeadingContainer > h1 {
+    font-size: 60px;
+  }
+  .donut-size {
+    font-size: 5em;
+  }
+  .featureHeading {
+    font-size: 1em;
+  }
+  .labelHeading {
+    font-size: 3em;
+  }
+  .labelImage {
+    width: 50px;
+    height: 50px;
+  }
+  table td span {
+    font-size: 0.75em;
+    padding: 5px;
+  }
+  td > h3 {
+    font-size: 1.2em;
+  }
+  td > h4 {
+    font-size: 1.1em;
+  }
+  td > h5 {
+    font-size: 1em;
+  }
+  .trackInfoContainer {
+    margin-left: 2%;
+  }
+  .trackInfoWrapper {
+    height: 200px;
+  }
+  #viewArtist {
+    font-size: 2em;
+  }
+}
